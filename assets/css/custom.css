@@ -1,0 +1,320 @@
+/*.form-signin-heading {
+  text-align:center;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+
+input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}*/
+
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.absolute-center.is-responsive {
+  width: 80%;
+  height: 50%;
+  min-width: 200px;
+  max-width: 700px;
+  padding: 40px;
+}
+
+.margin-left-0 {
+  margin-left: 0px!important;
+}
+
+.margin-0 {
+  margin: 0px!important;
+}
+
+p {
+  font-size: 15px!important;
+  line-height: 1.7em;
+}
+
+.sidebar .sidebar-wrapper > .nav p,
+.off-canvas-sidebar .sidebar-wrapper > .nav p {
+  font-weight: 400!important;
+  letter-spacing: .1em;
+}
+
+.container {
+  height: 95vh!important;
+}
+
+.card {
+  max-width: 1200px!important;
+}
+
+input.error::-webkit-input-placeholder {
+  color: #fff!important;
+}
+
+div#api .icons .fa {
+  display: none!important;
+}
+
+.footer .copyright {
+  margin-top: 2px!important;
+}
+
+.logo:before {
+  background-color: transparent!important;
+}
+
+.sidebar .sidebar-wrapper {
+  height: 100%!important;
+}
+
+.loader {
+  font-size: 20px;
+  opacity: 0.7;
+  color: #999;
+}
+
+.main_panel {
+  top: 130px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+}
+
+.user .photo,
+.circle_div {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%!important;
+  margin: 0 auto;
+  border: 4px solid rgba(0, 0, 0, 0.15);
+}
+
+.user .photo img {
+  width: 100%;
+}
+
+
+.bw_image {
+  -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+}
+
+.opacity {
+  opacity : 0.5;
+}
+
+.w3_navigation {
+  min-height: 150px!important;
+  border-bottom: 1px solid #F90000;
+}
+
+/* another bookshelf design */
+.book, .book img, .book::after,
+.book::before {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+ul.list-inline {
+  /*display: table-cell;*/
+  vertical-align: middle;
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  margin-left: 2em;
+  margin-bottom: 20px!important;
+}
+.list-inline > li:first-child {
+  margin-left: 0;
+}
+
+.book {
+  cursor: pointer;
+  display: block;
+  width: 150px;
+  height: 220px;
+  position: relative;
+  background: white;
+  z-index: 1;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 9px 20px 0 rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  -webkit-transition: box-shadow .3s linear;
+  transition: box-shadow .3s linear;
+  text-align: center;
+}
+
+.book img {
+  width: inherit;
+  height: inherit;
+  -webkit-transform-origin: 0 50%;
+          transform-origin: 0 50%;
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+  -webkit-transition: all .45s ease;
+  transition: all .45s ease;
+}
+
+.book:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 9px 20px 0 rgba(0, 0, 0, 0.45);
+}
+.book:hover img {
+  -webkit-transform: rotateY(-25deg);
+          transform: rotateY(-25deg);
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.book::after,
+.book::before {
+  content: '';
+  display: block;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  background: white;
+  border: 1px solid #d9d9d9;
+}
+
+.book::before {
+  left: -3px;
+}
+
+.book::after {
+  left: -6px;
+}
+
+.twenty_px_height {
+  min-height: 20px!important;
+}
+
+.wrapper .main_panel {
+  height: 90vh!important;
+  min-height: 90vh!important;
+}
+
+
+.wrapper {
+  height: 100%!important;
+}
+
+.twenty_px_height {
+  min-height: 20px!important;
+}
+
+.sweet-alert .form-control {
+  max-width: inherit!important;;
+}
+
+.sweet-alert div {
+  padding: 2px!important;
+}
+
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+  font-size: .92em!important;
+}
+
+.file-upload-wrapper {
+  position: relative;
+  width: 100%;
+  height: 62px;
+  border: 1px solid #4daf7c;
+  border-radius: 5px;
+}
+.file-upload-wrapper:after {
+  content: attr(data-text);
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  padding: 10px 15px;
+  display: block;
+  width: calc(100% - 40px);
+  pointer-events: none;
+  z-index: 20;
+  height: 40px;
+  line-height: 40px;
+  color: #999;
+  border-radius: 5px 10px 10px 5px;
+  font-weight: 300;
+}
+.file-upload-wrapper:before {
+  content: 'Upload';
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  height: 60px;
+  background: #4daf7c;
+  color: #fff;
+  font-weight: 700;
+  z-index: 25;
+  font-size: 16px;
+  line-height: 60px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  pointer-events: none;
+  border-radius: 0 5px 5px 0;
+}
+.file-upload-wrapper:hover:before {
+  background: #3d8c63;
+}
+.file-upload-wrapper input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+

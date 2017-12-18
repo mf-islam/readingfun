@@ -1,0 +1,16 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$config = array (
+  'site_title' => 'Reading Fun ',
+  'site_slogan' => '',
+  'first_name' => '',
+  'last_name' => '',
+  'admin_email' => '',
+  'admin_phone' => '',
+  'address' => '',
+  'city' => '',
+  'state' => '',
+  'zip' => '',
+  'country' => ''
+);

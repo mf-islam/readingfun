@@ -1,0 +1,15 @@
+
+# Custom maindomain .htaccess WordPress
+    RewriteEngine On
+    RewriteBase /
+    #RewriteCond %{HTTP_HOST} !^www\. [NC]
+	#RewriteCond %{HTTP_HOST} ^(.+?)\.(readingfun\.us)$ [NC]
+	#RewriteRule ^ http://www.%2/?lib_id=%1 [L,P]
+
+    #RewriteCond %{HTTP_HOST} ^(www.)?readingfun.us$
+    RewriteRule ^index\.php$ - [L]
+    #RewriteCond %{HTTP_HOST} ^(www.)?readingfun.us$
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.php [L]
+# End custom maindomain .htaccess
